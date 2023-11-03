@@ -5,4 +5,9 @@
 * 11.6 ~ 11.10 ：实现etcd服务注册与发现
 * 11.11~ 11.12 ： 实现招聘模块
 ## 2、web设计
+### login
+* 1.web服务器
+* 2.html,css,javascript
+* 3.mysql
+* 4.部署位置：windows
 ## 3、RPC设计
