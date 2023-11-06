@@ -37,7 +37,6 @@
 </head>
 <body>
 <div id="character"></div>
-
 <script>
     var character = document.getElementById("character");
 
@@ -51,6 +50,5 @@
 </script>
 </body>
 </html>
-
-  ```
+```
 ## 3、RPC设计
