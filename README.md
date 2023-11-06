@@ -39,11 +39,9 @@
 <div id="character"></div>
 <script>
     var character = document.getElementById("character");
-
     document.addEventListener("click", function(event) {
         var targetX = event.pageX - (character.offsetWidth / 2);
         var targetY = event.pageY - (character.offsetHeight / 2);
-
         character.style.left = targetX + "px";
         character.style.top = targetY + "px";
     });
