@@ -14,7 +14,7 @@
 * 4.部署位置：windows
 * main.go
   ```
-  r := gin.Default()
+ 	r := gin.Default()
 	r.LoadHTMLGlob("D:\\Develop\\gopath\\micro\\login\\html\\login.tmpl") //模板解析
 	r.GET("/login", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "login.tmpl", gin.H{"title": "登录页面"}) //模板渲染
@@ -22,7 +22,8 @@
 	r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
   ```
 * login.tmpl
-  ```
+
+```
   <!DOCTYPE html>
 <html>
 <head>
@@ -49,4 +50,5 @@
 </body>
 </html>
 ```
+  
 ## 3、RPC设计
